@@ -2,6 +2,7 @@ body{
     padding :0;
     margin :0;
     background-color: rgb(22, 0, 26);
+    font-family :serif;
 }
 .container-fluid{
     padding :0;
@@ -12,9 +13,7 @@ body{
     margin :0;
     background-color: rgb(136, 3, 177);
 }
-h1{
-    font-family: serif;
-}
+
 #google-logo{
     height: 35px;
     width: 35px;
@@ -25,9 +24,28 @@ h1{
 }
 #google-search-button:hover{
     color: rgb(0, 177, 9);
-    background-color: rgb(255, 255, 255)
+    background-color: #ffffff;
 }
 #navbar{
     float:right;
     font-size:20;
+}
+.row{
+    padding :0;
+    margin :0;
+}
+#my-image{
+    height: auto;
+    width: 80%;
+    box-shadow: 0 0 15px #c300ff;
+    border: 3px solid #000000;
+}
+#image-border-effect{
+    padding :0;
+    margin :0;
+}
+#section-second-div{
+    border-left: 1px solid rgba(255, 255, 255, 0.404);
+    border-right: 1px solid rgba(255, 255, 255, 0.404);
+    height: auto;
 }
