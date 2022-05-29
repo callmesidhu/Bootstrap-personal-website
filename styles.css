@@ -1,0 +1,33 @@
+body{
+    padding :0;
+    margin :0;
+    background-color: rgb(22, 0, 26);
+}
+.container-fluid{
+    padding :0;
+    margin :0;
+}
+#head{
+    padding :0;
+    margin :0;
+    background-color: rgb(136, 3, 177);
+}
+h1{
+    font-family: serif;
+}
+#google-logo{
+    height: 35px;
+    width: 35px;
+}
+#google-search-button{
+    color: white;
+    background-color: rgb(7, 182, 7)
+}
+#google-search-button:hover{
+    color: rgb(0, 177, 9);
+    background-color: rgb(255, 255, 255)
+}
+#navbar{
+    float:right;
+    font-size:20;
+}
