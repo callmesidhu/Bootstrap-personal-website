@@ -3,6 +3,8 @@ body{
     margin :0;
     background-color: rgb(22, 0, 26);
     font-family :serif;
+
+    
 }
 .container-fluid{
     padding :0;
@@ -40,6 +42,11 @@ body{
     box-shadow: 0 0 15px #c300ff;
     border: 3px solid #000000;
 }
+#my-image:hover{
+    transition-duration: 0.3s;
+    box-shadow: 0 0 15px #ffffff;
+    border: 6px solid #000000;
+}
 #image-border-effect{
     padding :0;
     margin :0;
@@ -62,10 +69,11 @@ hr{
 }
 #cards{
     background-color: rgb(0, 0, 0);
-    border-radius: 10%;
+    border-radius: 3% 20%;
+    box-shadow: 0 0 8px  #e100ff;;
 }
 #cards:hover{
-    background-color: rgb(16, 0, 19);
-    box-shadow: 0 0 20px #c300ff;
+    background-color: rgb(122, 0, 170);
+    box-shadow: 0 0 30px #ffffff;
     transition-duration: 0.5s;
 }
