@@ -67,12 +67,12 @@ hr{
     width: 95%;
     opacity: 30%;
 }
-#cards{
+.cards{
     background-color: rgb(0, 0, 0);
     border-radius: 3% 20%;
-    box-shadow: 0 0 8px  #e100ff;;
+    box-shadow: 0 0 8px  #e100ff;
 }
-#cards:hover{
+.cards:hover{
     background-color: rgb(122, 0, 170);
     box-shadow: 0 0 30px #ffffff;
     transition-duration: 0.5s;
@@ -118,6 +118,11 @@ hr{
     position: absolute;
     border-radius: 10px;
 } 
+@-webkit-keyframes animate{
+    0%{
+        transform: scale(0);
+    }
+}
 @keyframes animate {
     100%{
         transform: scaleX(1);
@@ -173,8 +178,6 @@ hr{
     content: "95%";
 }
 
-
-
 .progress-line.html span{
     width: 95%;
 }
@@ -200,3 +203,71 @@ hr{
     width: 95%;
 }
                         /*progress bar css ends*/
+
+
+                        /*internal link transition*/
+                        
+html {
+scroll-behavior: smooth;
+}
+                          
+                        /*internal link transition ends*/
+
+
+
+                        /*contact box*/
+
+
+contact-form{
+    background: #fff;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+    box-shadow: 0 0 10px  #e100ff;
+}
+
+.contact-form form{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 6%;
+    padding-bottom: 7%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-top: -10%;
+    text-align: center;
+    color: #ffffff;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #d400ff;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #d400ff;
+    border: none;
+    cursor: pointer;
+}
+.btnContact:hover
+{
+    transition-duration: 0.2s;
+    color: #e100ff;
+    background-color: #fff;
+    box-shadow: 0 0 10px  #e100ff;
+}
+#page-last-name{
+    color: #d400ff;
+}
